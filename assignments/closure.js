@@ -4,6 +4,15 @@
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
+const Name = 'Irving Duran';
+function  greet() {
+  const Hello = 'Hello my name is';
+  const End = '!';
+  const Question = 'How are you?'
+  return (`${Hello} ${Name} ${End}`);
+}
+console.log(greet(alert));
+console.log('How are you?')
 
 // ==== Challenge 2: Create a counter function ====
 const counter = () => {
